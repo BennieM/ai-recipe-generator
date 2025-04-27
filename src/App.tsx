@@ -48,7 +48,7 @@ function App() {
     <div className="app-container">
       <div className="header-container">
         <h1 className="main-header">
-          Meet Your Personal
+          Hi Bennie!! Meet Your Personal
           <br />
           <span className="highlight">Recipe AI</span>
         </h1>

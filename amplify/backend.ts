@@ -10,10 +10,10 @@ const backend = defineBackend({
 
 const bedrockDataSource = backend.data.resources.graphqlApi.addHttpDataSource(
   "bedrockDS",
-  "https://bedrock-runtime.us-east-1.amazonaws.com",
+  "https://bedrock-runtime.us-east-2.amazonaws.com",
   {
     authorizationConfig: {
-      signingRegion: "us-east-1",
+      signingRegion: "us-east-2",
       signingServiceName: "bedrock",
     },
   }
